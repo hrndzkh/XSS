@@ -1,0 +1,12 @@
+Opdracht 1: Wat wordt er op de pagina getoond als je de volgende text invoert: Coole website <script>alert("XSS voorbeeld")</script>?
+
+Ingevoerde zoekterm: Coole website
+Er zijn geen resultaten gevonden voor de ingevoerde zoekopdracht! wordt afgedrukt, en er komt een pop-up box te verschijnen met de text "XSS voorbeeld".
+
+Opdracht 2: Wat gebeurd er als je <font color="blue"> invoert?
+
+De text "Er zijn geen resultaten gevonden voor de ingevoerde zoekopdracht!" verandert van kleur, wordt blauw.
+
+Opdracht 3: Hoe kun je XSS injecties voorkomen?
+
+Door input validation: door een blacklist te maken, wordt de user beperkt om alleen bepaalde tekens te gebruiken. Bijv., een user mag geen <, >, ", en zelfs ook <script> tags gebruiken als input.
